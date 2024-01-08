@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Saira Condensed', sans-serif;
+}
+.container {
+  background-color: rgb(42, 40, 40);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 31vw;
+  height: 82vh;
+  text-align: center;
+  margin-top: 80px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #31B7C2, #7BC393);
+}
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search input {
+  height: 7vh;
+  width: 18vw;
+  border-radius: 20px;
+  margin: 27px 17px 27px 10px;
+  padding-left: 20px;
+  font-size: 21px;
+  color: grey;
+}
+.btn{
+    height: 7vh;
+    width: 48px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+.temp{
+  font-size: 75px;
+}
+.city{
+  font-size: 30px;
+}
+
+#rain{
+  width: 150px;
+}
+.details{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.weather{
+  color: #F4F5FA;
+  display: none;
+}
+.error{
+  display: none;
+}
+
